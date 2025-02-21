@@ -1,0 +1,853 @@
+
+1....
+
+#include<stdio.h>
+int main()
+{
+    int num1 =45;
+    int num2 =67;
+    int num3;
+    
+    num3= num1+num2;
+    
+    printf("the value is %d\n",num3);
+    
+    return 0 ;
+    
+}
+
+
+2.
+
+#include<stdio.h>
+int main()
+{
+    
+    int num1;
+    int num2;
+    int num3;
+    
+    
+    
+    printf("enter num1\n");
+    scanf("%d", &num1);
+    printf("enter num2\n");
+    scanf("%d", &num2);
+     num3 = num1-num2;
+    printf("value is %d\n",num3);
+    
+     return 0;
+     
+}
+
+
+
+
+3.
+
+
+
+#include<stdio.h>
+int main()
+{
+    
+    int num1;
+    int num2;
+    int num3;
+    
+    
+    
+    printf("enter num1 num2\n");
+    scanf("%d %d", &num1, &num2);
+
+     num3 = num1*num2;
+    printf("value is %d\n",num3);
+    
+     return 0;
+     
+}
+
+
+
+4.
+
+
+
+#include<stdio.h>
+int main()
+{
+    
+    int num1=22;
+    int  num2=2;
+    int num3;
+    
+    num3 =num1/num2;
+    
+    printf("value is  %d",num3);
+    
+     
+    
+    
+     return 0;
+     
+}
+
+
+
+
+5.
+
+
+#include<stdio.h>
+int main()
+{
+    
+    int a,b,c,d,e;
+   
+    int sub ;
+
+   printf("enter value of a,b,c,d,e");
+   scanf("%d%d%d%d%d", &a,&b,&c,&d,&e);
+    
+    sub=a+b+c+d+e;
+    
+    printf("value of sub is %d\n", sub);
+    
+    
+    return 0;
+    
+}
+
+
+
+
+6.
+
+
+
+#include<stdio.h>
+int main()
+{
+    
+    int a=23,b=89,c=12,d=56;
+   
+    int sub ;
+    
+    sub= a+b+c+d;
+   
+   printf("value of a,b,c,d is %d\n",sub);
+   
+   
+   
+   return 0;
+}
+
+
+
+
+7.
+
+
+#include<stdio.h>
+int main ()
+{
+     int a , b ,c , d ,e;
+     
+     int result;
+     
+    
+   
+    
+   printf("enter value of a ,b ,c ,d ,e");
+   scanf("%d%d%d%d%d",&a, &b, &c, &d, &e);
+   
+       total = (a*b+c/d-e);
+  
+   printf("total is %d\n", result );
+   
+    
+   
+   
+   return 0;
+   
+   
+}
+
+
+
+8
+
+
+#include<stdio.h>
+int main()
+{
+    
+float a =1.2;
+float b=6.7;
+float c=4.5;
+int d=2;
+float result ;
+
+result = 1.2*6.7-4.5/2;
+
+printf("result is %f\n", result);
+
+
+return 0;
+    
+    
+}
+
+
+
+
+
+9
+
+#include<stdio.h>
+int main ()
+{
+ float a;
+ int b;
+ int c;
+ float d;
+ float e;
+ float result;
+ 
+ 
+ printf(" enter value of a,b,c,d,e");
+ scanf("%f%d%d%f%f", &a,&b,&c,&d,&e);
+ 
+ result =a*(b-c)/c+d-e;
+ 
+ printf("%f\n",result);
+
+ return 0;
+    
+ }
+
+
+
+10
+
+#include<stdio.h>
+int main ()
+{
+ float a;
+ float b;
+ int c;
+ int d;
+ float e;
+ float f;
+ 
+ float result;
+ 
+ 
+ printf(" enter value of a,b,c,d,e,f\n");
+ scanf("%f%f%d%d%f%f", &a,&b,&c,&d,&e,&f);
+ 
+ result =a*b-(c/d)-e+f;
+ 
+ printf("%f\n",result);
+
+ return 0;
+    
+    
+    
+    
+}
+
+
+
+11
+
+#include<stdio.h>
+int main()
+{
+    int a=8,b=1,c=4,d=2,e=6;
+    
+    int result;
+    
+    result = 8*1+(4-2)/1+6;
+    
+    printf("the result is %d\n", result );
+     return 0;
+     
+    
+    
+}
+
+
+
+
+
+
+12
+
+
+#include<stdio.h>
+int main ()
+{
+ float a;
+ float b;
+ float c;
+ float d;
+ int e;
+ float f;
+ 
+ float result;
+ 
+ 
+ printf(" enter value of a,b,c,d,e,f\n");
+ scanf("%f%f%f%f%d%f", &a,&b,&c,&d,&e,&f);
+ 
+ result =a+b*(c-d)/e+f;
+ 
+ printf("%f\n",result);
+
+ return 0;
+    
+    
+    
+    
+}
+
+
+
+
+
+13
+
+
+#include<stdio.h>
+int main ()
+{
+    float a=8.9;
+    float b=1.67;
+    float c=6.21;
+    float d=5.6;
+    float e=7.8;
+    int f=34;
+    int g=157;
+    
+    float result;
+    
+    result = 8.9*1.67-(6.21 - 5.6) + 7.8 - 34 + 157;
+    
+    printf("result is %f\n", result);
+    
+    return 0;
+}
+
+
+
+14
+
+int main ()
+{
+    int number;
+    
+    
+    printf("enter a number\n");
+    scanf("%d", &number);
+    
+    
+     if (number>10)
+     {
+    
+    printf("number is greater\n");  
+    
+    }
+    
+    else
+        
+    {
+     
+   printf("number is not greater\n");
+   
+    }
+      
+    return 0;
+    
+    
+    
+}
+
+
+
+
+15
+
+
+#include<stdio.h>
+int main ()
+{
+    int number;
+    
+    
+    printf("enter a number\n");
+    scanf("%d", &number);
+    
+    
+     if (number>67)
+     {
+    
+    printf("number is greater\n");  
+    
+    }
+    
+    else
+        
+    {
+     
+   printf("number is not greater\n");
+   
+    }
+      
+    return 0;
+    
+    
+    
+}
+
+
+16 
+
+
+#include<stdio.h>
+int main ()
+{
+    char a;
+    
+    printf("enter a character\n");
+    scanf("%c", &a);
+    
+    if(a=='a')
+    {
+    printf("apple\n");
+    }
+    else
+    {
+    printf("input is not matched\n");
+    }
+    
+    return 0;
+    
+}
+
+
+
+
+17
+
+
+#include<stdio.h>
+int main ()
+{
+    char a;
+    
+    printf("enter a character\n");
+    scanf("%c", &a);
+    
+    if(a=='b')
+    {
+    printf("ball\n");
+    }
+    else
+    {
+    printf("input is not matched\n");
+    }
+    
+    return 0;
+    
+}
+
+
+
+
+
+18
+
+#include<stdio.h>
+int main ()
+{
+   int num;
+   printf("enter a number\n");
+   scanf("%d", &num);
+   
+   if(num%2==0)
+   {
+   
+   printf("number is even\n");
+   }
+   
+   else
+   {
+    
+   printf("odd\n");
+   }
+   
+   
+   return 0;
+   
+   
+}
+
+
+
+
+19
+
+
+#include<stdio.h>
+int main ()
+{
+   int a=10,b=20;
+   
+   a=a+b;
+   b=a-b;
+   a=a-b;
+   
+    printf("a=%d, b=%d",a,b);
+   return 0;
+   
+}
+
+
+
+20
+
+
+#include<stdio.h>
+int main ()
+{
+   int a=10,b=20;
+   int c =a;
+   
+   a=b;
+   b=c;
+   
+ 
+    printf("a=%d, b=%d",a,b);
+   return 0;
+   
+}
+
+
+
+
+21
+
+
+#include<stdio.h>
+int main ()
+{
+  int num;
+  printf("enter a number\n");
+  scanf("%d", &num);
+  
+  if(num%5==0)
+  
+  printf("divisible\n");
+  
+  else
+  
+  printf(" not divisible\n");
+  
+  return 0;
+  
+}
+  
+
+
+22
+
+
+#include<stdio.h>
+int main ()
+{
+  int num;
+  printf("enter a number\n");
+  scanf("%d", &num);
+  
+  if(num%2==0 && num%3==0)
+  
+  printf("divisible\n");
+  
+  else
+  
+  printf(" not divisible\n");
+  
+  return 0;
+  
+}
+  
+
+
+
+
+23
+
+#include<stdio.h>
+int main ()
+{
+  int num;
+  printf("enter a number\n");
+  scanf("%d", &num);
+  
+  if(num%7==0 || num%9==0)
+  
+  printf("divisible\n");
+  
+  else
+  
+  printf(" not divisible\n");
+  
+  return 0;
+  
+}
+  
+
+
+24
+
+
+#include<stdio.h>
+int main ()
+{
+  int num;
+  printf("enter a number\n");
+  scanf("%d", &num);
+  
+  if(num%6==0 && num%2==0)
+  
+  printf("divisible\n");
+  
+  else
+  
+  printf(" not divisible\n");
+  
+  return 0;
+  
+}
+  
+
+
+25
+
+#include<stdio.h>
+int main ()
+{
+  int num1,num2,num3;
+  char a;
+  
+  printf("enter character\n ");
+  scanf("%c", &a);
+  
+  if(a=='a')
+  
+ {
+  printf("enter two number\n");
+  
+  printf("enter value of num1,num2\n");
+  
+  scanf("%d%d", &num1,&num2);
+  
+ num3=num1+num2;
+   
+   
+  printf("num is %d\n",num3);
+ }
+  
+  
+  
+  
+  else
+  {
+  
+  
+  printf(" input is not matched");
+  }
+  
+  
+  
+  
+  return 0;
+  
+  
+}
+  
+  
+  
+
+
+
+26
+
+
+#include<stdio.h>
+int main ()
+{
+  int num1,num2,num3;
+  char a;
+  
+  printf("enter character\n ");
+  scanf("%c", &a);
+  
+  if(a=='m')
+  
+ {
+  printf("enter two number\n");
+  
+  printf("enter value of num1,num2\n");
+  
+  scanf("%d%d", &num1,&num2);
+  
+ num3=num1*num2;
+   
+   
+  printf("num is %d\n",num3);
+ }
+  
+  
+  
+  
+  else
+  {
+  
+  
+  printf(" input is not matched");
+  }
+  
+  
+  
+  
+  return 0;
+  
+  
+}
+  
+  
+  
+27
+
+
+#include<stdio.h>
+int main ()
+{
+  int num1,num2,num3;
+  char a;
+  
+  printf("enter character\n ");
+  scanf("%c", &a);
+  
+  if(a=='s')
+  
+ {
+  printf("enter two number\n");
+  
+  printf("enter value of num1,num2\n");
+  
+  scanf("%d%d", &num1,&num2);
+  
+ num3=num1/num2;
+   
+   
+  printf("num is %d\n",num3);
+ }
+  
+  
+  
+  
+  else
+  {
+  
+  
+  printf(" input is not matched");
+  }
+  
+  
+  
+  
+  return 0;
+  
+  
+}
+  
+  
+  
+28
+
+#include<stdio.h>
+int main ()
+{
+ int a,b;
+ char ch;
+ printf("enter character\n");
+ scanf("%c", &ch);
+  if (ch=='s')
+  {
+  printf("enter two number\n");
+  printf("enter value of a,b\n");
+  scanf("%d%d", &a, &b);
+  
+  
+ a=a+b;
+ b=a-b;
+ a=a-b;
+ 
+ printf("a=%d b=%d",a,b);
+  
+  }
+ 
+ else 
+ {
+ 
+ printf("input not matched");
+ }
+ 
+ return 0;
+ 
+}
+
+
+
+
+29
+
+#include<stdio.h>
+int main ()
+{
+ int a,b,c;
+ char ch;
+ printf("enter character\n");
+ scanf("%c", &ch);
+  if (ch=='s')
+  {
+  printf("enter two number\n");
+  printf("enter value of a,b\n");
+  scanf("%d%d", &a, &b);
+  
+  
+  c=a;
+  a=b;
+  b=c;
+  
+  
+ 
+  printf("a=%d ,b=%d",a,b);
+  
+  }
+ 
+  else 
+  {
+ 
+  printf("input not matched");
+  }
+ 
+ return 0;
+ 
+}
+    
+
+
